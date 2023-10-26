@@ -14,7 +14,7 @@
     },
     "servers": [
         {
-            "url": "https://api-protect.42crunch.cloud/api"
+            "url": "http://api-protect.42crunch.cloud/securemeters/api"
         }
     ],
     "tags": [
