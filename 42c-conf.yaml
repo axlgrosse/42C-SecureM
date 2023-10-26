@@ -1,0 +1,7 @@
+audit:
+  branches:
+    main:
+      mapping:
+        PixiAppAPIProtected_42.json: 14656b9d-3ca2-426d-8015-d59840a6cb06
+        PixiAppAPIUnProtected_42.json: 86e88e09-744f-4769-bbf0-8d77638d0e06
+      discovery: false
