@@ -633,13 +633,13 @@
                         "x-42c-format": "o:uuid"
                     },
                     "email": {
-                        "maxLength": 320,
-                        "minLength": 6,
-                        "pattern": "^(?:[\\w\\-+!#$%&'*/=?^`|{}~]+(?:\\.[\\w\\-+!#$%&'*/=?^`|{}~]+)*)@(?:(?:[A-Za-z0-9](?:[\\w\\-]{0,61}[A-Za-z0-9])?)(?:\\.(?:[A-Za-z0-9](?:[\\w\\-]{0,61}[A-Za-z0-9])?))*\\.[A-Za-z]{2,})$",
-                        "type": "string",
-                        "format": "email",
-                        "example": "email@email.com",
-                        "x-42c-format": "o:email"
+                      "maxLength": 68,
+                      "minLength": 5,
+                      "pattern": "^\\w+(?:[\\-.]\\w+)*@[0-9A-Za-z]+(?:[\\-.][0-9A-Za-z]+)*\\.(?:[A-Za-z][0-9A-Za-z]+|[0-9]+[A-Za-z][0-9A-Za-z]*)$",
+                      "type": "string",
+                      "format": "email",
+                      "example": "email@email.com",
+                      "x-42c-format": "o:email"
                     },
                     "password": {
                         "maxLength": 64,
@@ -705,13 +705,13 @@
                         "example": "mailto:john@swagger.com"
                     },
                     "email": {
-                        "maxLength": 320,
-                        "minLength": 6,
-                        "pattern": "^(?:[\\w\\-+!#$%&'*/=?^`|{}~]+(?:\\.[\\w\\-+!#$%&'*/=?^`|{}~]+)*)@(?:(?:[A-Za-z0-9](?:[\\w\\-]{0,61}[A-Za-z0-9])?)(?:\\.(?:[A-Za-z0-9](?:[\\w\\-]{0,61}[A-Za-z0-9])?))*\\.[A-Za-z]{2,})$",
-                        "type": "string",
-                        "format": "email",
-                        "example": "email@email.com",
-                        "x-42c-format": "o:email"
+                      "maxLength": 68,
+                      "minLength": 5,
+                      "pattern": "^\\w+(?:[\\-.]\\w+)*@[0-9A-Za-z]+(?:[\\-.][0-9A-Za-z]+)*\\.(?:[A-Za-z][0-9A-Za-z]+|[0-9]+[A-Za-z][0-9A-Za-z]*)$",
+                      "type": "string",
+                      "format": "email",
+                      "example": "email@email.com",
+                      "x-42c-format": "o:email"
                     },
                     "name": {
                         "maxLength": 50,
